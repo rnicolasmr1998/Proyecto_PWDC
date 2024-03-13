@@ -1,0 +1,75 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+header {
+    display: flex;
+    background-color: #76453B;
+    align-items: center;
+    justify-content: space-between;
+}
+header a i {
+    color: white;
+    font-size: 2em;
+    padding: 0.5em;
+}
+header nav ul {
+    display: flex;
+    gap: 1.1em;
+}
+
+header nav ul li a {
+    color: white;
+    font-size: 1em;
+    padding: 0.5em;
+}
+
+.seccion-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+}
+
+.acerca-de {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    width: 40%;
+    padding: 0.5em;
+    text-align: justify;
+}
+
+.acerca-imagen {
+    display: flex;
+    padding: 0.5em;
+}
+
+.seccion-2 {
+    display:flex;
+    justify-content: center;
+}
+
+.seccion-2 img {
+    padding: 0.5em;
+    width: 80%;
+}
+
+footer {
+    background-color: #76453B; 
+}
+
+.footer h3 {
+    display: block;
+    color: white;
+    padding: 0.5em;
+}
+
+.footer nav ul li a {
+    color: white;
+} 
+
